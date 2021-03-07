@@ -6,3 +6,147 @@ h1, h2, h3, h4, p {
     margin: 0;
 }
 
+header {
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 1px 0px #E5E9F2;
+}
+
+.main-block {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.main-block__menu {
+    display: inline-block;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.main-block__logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 32px;
+}
+
+.main-block__navigation {
+    display: inline-block;
+    margin-left: -4px;
+    vertical-align: middle;
+}
+
+.main-block__navigation::after {
+    content: url("/img/Vector.png");
+    display: inline-block;
+    cursor: pointer;
+}
+
+.main-block__navigation a {
+    margin-left: -4px;
+    padding-right: 32px;
+    text-decoration: none;
+    color: black;
+    font-family: "ManropeBold", sans-serif;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.main-block__navigation a:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.main-block__navigation a:nth-child(6){
+    margin-left: -4px;
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+.main-block__navigation a:first-child{
+    margin-left: 0;
+}
+
+.main-block__navigation a:last-child{
+    margin-left: -4px;
+}
+
+.main-block__links {
+    float: right;
+    vertical-align: middle;
+    margin-left: -4px;
+    padding-top: 16px;
+}
+
+.main-block__links img {
+    margin-left: -4px;
+    padding-left: 13px;
+    transition: 1s;
+}
+
+.main-block__links img:hover {
+   opacity: 0.6;
+   transition: 0.6s;
+}
+
+.hero-left {
+    width: 540px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 221px;
+    margin-right: 10px;
+}
+
+.hero-left__title {
+    font-family: "ManropeExtraBold", sans-serif;
+    font-size: 72px;
+    line-height: 98px;
+    padding-bottom: 16px;
+}
+
+.hero-left__text {
+    font-family: "ManropeRegular", sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom: 32px;
+}
+
+.hero-left__button {
+    width: 196px;
+    padding: 16px 41px;
+    font-family: "ManropeBold", sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #8C30F5;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.6s;
+}
+
+.hero-left__button:hover {
+    background-color: #b176f5;
+    color: #303030;
+    box-shadow: -2px 4px 45px rgba(0, 0, 0, 0.13);
+}
+
+.hero-left__button:focus {
+    background-color: #6c1aca;
+    color: #ffffff;
+}
+
+.hero-right {
+    display: inline-block;
+    margin-left: -4px;
+    padding-top: 160px;
+    padding-bottom: 197px;
+    vertical-align: top;
+    width: 524px;
+}
+
+
