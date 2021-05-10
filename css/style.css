@@ -1,8 +1,153 @@
-body {
-    margin: 0;
+.review {
+    width: 1120px;
+    position: relative;
+    margin: 0 auto;
+    color: #ffffff;
+    margin-top: 100px;
 }
 
-h1, h2, h3, h4, p {
-    margin: 0;
+.review::before {
+    position: absolute;
+    content: '';
+    display: block;
+    background: url('/img/element.png');
+    width: 70px;
+    height: 115px;
+    z-index: 10;
+    left: -60px;
+    top: 270px;
 }
 
+.review__slider {
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    width: 1120px;
+    height: 425px;
+    border-radius: 24px;
+    margin-right: 50px;
+}
+
+h2::before {
+    position: absolute;
+    content: '';
+    display: block;
+    background: url('/img/Group.png');
+    z-index: 10;
+    width: 80px;
+    height: 100px;
+    margin-left: 980px;
+    top: 12px;
+    
+}
+
+h2 {
+    color: #ffffff;
+    font-family: "MulishBold", sans-serif;
+    font-size: 36px;
+    line-height: 48px;
+    padding-top: 64px;
+    margin: 0;
+    text-align: center;
+}
+
+h2::after {
+    position: absolute;
+    content: '';
+    display: block;
+    margin-left: 534px;
+    margin-top: 25px;
+    width: 56px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.review__text.col {
+    padding: 0;
+    margin-top: 104px;
+    font-family: "MulishRegular", sans-serif;
+    font-size: 19px;
+    line-height: 30px;
+    opacity: 90%;
+    text-align: justify;
+    margin-left: 110px;
+    margin-right: 118px;
+}
+
+.review__information.col {
+    display: flex;
+    padding: 0;
+}
+
+.review__img {
+    width: 133px;
+    height: 133px;
+    border: 2px solid #c4c4c4;
+    border-radius: 50%;
+    margin-left: 122px;
+    margin-top: 97px;
+    margin-bottom: 83px;
+}
+
+.review__name {
+    font-family: "MulishBold", sans-serif;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    margin-top: 124px;
+}
+
+.review__name span {
+    font-family: "MulishRegular", sans-serif;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: start;
+    opacity: 85%;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+
+/* Стрелка */
+.review .slick-arrow {
+    position: absolute;
+    z-index: 3;
+    font-size: 0;
+    width: 36px;
+    height: 36px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+.review .slick-arrow:hover {
+    opacity: 0.3;
+}
+
+
+/* Стрелка влево */
+.review .slick-arrow.slick-prev {
+    z-index: 10;
+    background: url('/img/Vector.svg');
+    left: 400px;
+    top: 450px;
+    background-repeat: no-repeat;
+}
+/* Стрелка вправо */
+.review .slick-arrow.slick-next {
+    background: url('/img/Frame.svg');
+    right: 0;
+    background-repeat: no-repeat;
+    right: 400px;
+    top: 450px;
+}
+
+/* Активная точка */
+/*  */.review .slick-dots li.slick-active { 
+    background: #5B9BF3;
+     border-radius: 50%;
+}
