@@ -1,0 +1,95 @@
+@import url('/css/blocks/last-chance/__item/last-chance__item.css');
+@import url('/css/blocks/last-chance/__price/last-chance__price.css');
+@import url('/css/blocks/last-chance/__caramel/last-chance__caramel.css');
+@import url('/css/blocks/last-chance/__button/last-chance__button.css');
+@import url('/css/blocks/last-chance/__cloud/last-chance__cloud.css');
+@import url('/css/blocks/last-chance/__owl/last-chance__owl.css');
+@import url('/css/blocks/last-chance/__maya/last-chance__maya.css');
+@import url('/css/blocks/last-chance/__messi/last-chance__messi.css');
+
+.last-chance {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-chance::-webkit-scrollbar {
+    height: 5px; /* высота для горизонтального скролла */
+    background-color: #14121510; /* Цвет скроллбара */
+}
+
+.last-chance::-webkit-scrollbar-thumb {
+    background: #303032; /* Цвет ползунка скроллбара */
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .last-chance {
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .last-chance {
+        width: auto;
+        overflow: auto;
+        height: 370px;
+    }
+
+    .last-chance::after {
+        content: '';
+        display: block;
+        flex-shrink: 0;
+        width: 10px;
+    }
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    .last-chance {
+        width: auto;
+        overflow: auto;
+    }
+
+    .last-chance::after {
+        content: '';
+        display: block;
+        flex-shrink: 0;
+        width: 10px;
+    }    
+}
+    
+@media (min-width: 375px) and (max-width: 424px) {
+    .last-chance {
+        padding-top: 20px;
+        margin-left: 24px;
+        margin-right: 24px;
+        width: auto;
+        overflow: auto;
+        height: 422px;
+    }
+
+    .last-chance::after {
+        content: '';
+        display: block;
+        flex-shrink: 0;
+        width: 10px;
+    }
+}
+    
+@media (min-width: 320px) and (max-width: 374px) {
+    .last-chance {
+        padding-top: 20px;
+        margin-left: 16px;
+        margin-right: 16px;
+        width: auto;
+        overflow: auto;
+        height: 422px;
+    }
+
+    .last-chance::after {
+        content: '';
+        display: block;
+        flex-shrink: 0;
+        width: 10px;
+    }   
+
+}

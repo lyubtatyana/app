@@ -1,0 +1,28 @@
+.review__text {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 24.7px;
+    padding-top: 20px;
+    width: 653px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .review__text {
+        width: 500px;
+    }
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    
+    }
+    
+@media (min-width: 375px) and (max-width: 424px) {
+
+    }
+    
+@media (min-width: 320px) and (max-width: 374px) {
+       
+
+    }

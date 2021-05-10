@@ -1,0 +1,118 @@
+.main__navigation {
+    display: flex;
+    list-style: none; 
+    position: relative;
+    padding-left: 158px;
+    padding-top: 4px;
+}
+
+.main__navigation a{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+    line-height: 19px;
+    text-decoration: none;
+    color: #303032;
+    margin-right: 60px;
+    transition: 0.5s; 
+}
+
+.main__navigation a:hover {
+    opacity: 50%;
+    transition: 0.8s;
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .main__navigation a {
+        margin-right: 50px;
+    }
+
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    .main__navigation {
+        padding-left: 60px;
+    }
+    
+    .main__navigation a {
+        margin-right: 15px;
+        font-size: 12px;
+    }
+}
+    
+@media (min-width: 375px) and (max-width: 424px) {
+    .main__navigation {
+       position: absolute;
+       z-index: -1;
+       top: -600px;
+       left: 0;
+       height: 568px;
+       width: 100%;
+       background-color: #303032;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       padding: 0;
+       transition: 0.3s;
+    }
+    
+    .main__navigation.active {
+        top: 0;
+        transition: 0.5s;
+        z-index: 1;
+     }
+
+    .main__navigation a {
+        color: #ffffff;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 25px;
+        transition: 0.5s;
+        margin: 0;
+    }
+    .main__navigation li:not(:first-child) {
+        margin-top: 65px;
+    }
+}
+    
+@media (min-width: 320px) and (max-width: 374px) {
+    .main__navigation {
+        position: absolute;
+        z-index: -1;
+        top: -600px;
+        left: 0;
+        height: 568px;
+        width: 100%;
+        background-color: #303032;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        transition: 0.3s;
+     }
+     
+     .main__navigation.active {
+         top: 0;
+         transition: 0.5s;
+         z-index: 1;
+      }
+ 
+     .main__navigation a {
+         color: #ffffff;
+         font-weight: 400;
+         font-style: normal;
+         font-size: 18px;
+         line-height: 25px;
+         transition: 0.5s;
+         margin: 0;
+     }
+     .main__navigation li:not(:first-child) {
+         margin-top: 65px;
+     }
+}

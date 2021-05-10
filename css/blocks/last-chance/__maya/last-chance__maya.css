@@ -1,0 +1,42 @@
+.last-chance__maya {
+    position: relative;
+    bottom: -5px;
+    margin-top: -32px;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .last-chance__maya {
+        width: 165px;
+        bottom: 4px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .last-chance__maya {
+        width: 165px;
+        bottom: 4px;
+    }
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    .last-chance__maya {
+        width: 165px;
+        bottom: 4px;
+    }
+}
+    
+@media (min-width: 375px) and (max-width: 424px) {
+    .last-chance__maya {
+        height: 300px;
+        bottom: 9px;
+        padding-left: 54px;
+     }
+}
+    
+@media (min-width: 320px) and (max-width: 374px) {
+    .last-chance__maya {
+        height: 300px;
+        bottom: 9px;
+        padding-left: 54px;
+     }   
+}

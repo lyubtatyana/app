@@ -1,0 +1,36 @@
+.main__logo {
+    margin-right: 138px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .main__logo {
+        margin-right: 100px;
+    }
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    .main__logo {
+        margin-right: 25px;
+    }    
+}
+    
+@media (min-width: 375px) and (max-width: 424px) {
+    .main__logo {
+        margin: 0 132px 0 24px;
+    }
+
+    .main__logo.active {
+        opacity: 0;
+    }
+}
+    
+@media (min-width: 320px) and (max-width: 374px) { 
+    .main__logo {
+        margin: 0 132px 0 16px;
+    }
+
+    .main__logo.active {
+        opacity: 0;
+        
+    }
+}

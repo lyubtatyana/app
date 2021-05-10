@@ -1,0 +1,30 @@
+.main__body {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+
+@media (min-width: 375px) and (max-width: 424px) {
+    .main__body {
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        height: 68px;
+        top: 0;
+        justify-content: end;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .main__body {
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        height: 68px;
+        top: 0;
+        justify-content: end;
+    }
+}

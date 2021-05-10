@@ -1,0 +1,37 @@
+.sale__furniture {
+    display: flex;
+    list-style: none;
+    padding-top: 37px;
+}
+
+.sale__furniture a {
+    margin-right: 38px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #000000;
+    opacity: 40%;
+    transition: 0.5s;
+}
+
+.sale__furniture a:hover {
+    opacity: 100%;
+    text-decoration-line: underline;
+    transition: 0.8s;
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    .sale__furniture {
+        padding-left: 24px;
+        padding-top: 30px;
+    } 
+}
+    
+@media (min-width: 320px) and (max-width: 374px) {
+    .sale__furniture {
+        padding-left: 16px;
+        padding-top: 30px;
+    }  
+
+}

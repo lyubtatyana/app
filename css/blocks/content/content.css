@@ -1,0 +1,23 @@
+@import url('/css/blocks/content/__block/content__block.css');
+@import url('/css/blocks/content/__title/content__title.css');
+@import url('/css/blocks/content/__subtitle/content__subtitle.css');
+@import url('/css/blocks/content/__price/content__price.css');
+@import url('/css/blocks/content/__button/content__button.css');
+
+.content {
+    display: flex;
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    .content {
+        display: flex;
+        flex-flow: column-reverse;
+    }  
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .content {
+        display: flex;
+        flex-flow: column-reverse;
+    }  
+}

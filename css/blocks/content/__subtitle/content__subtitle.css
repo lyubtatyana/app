@@ -1,0 +1,26 @@
+.content__subtitle {
+    font-size: 20px;
+    line-height: 27px;
+    padding-top: 35px;
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .content__subtitle {
+        font-size: 16px;
+        padding-top: 25px;
+    }   
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    .content__subtitle {
+        padding-left: 24px;
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .content__subtitle {
+        padding-left: 16px;
+        padding-top: 20px;
+    }
+}

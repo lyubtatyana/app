@@ -1,0 +1,33 @@
+.product__link {
+    font-family: "PlayfairDisplayRegular", sans-serif;
+    font-size: 20px;
+    list-style: none;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    padding-top: 20px;
+}
+
+.product__link a {
+    text-decoration: none;
+    color: #000000;
+    opacity: 30%;
+    transition: 0.5s;
+}
+
+.product__link a:hover {
+    color: #000000;
+    opacity: 100%;
+    font-size: 40px;
+    border-right: 1px solid #000000;
+    padding-right: 10px;
+    margin-left: -17px;
+    transition: 0.8s;
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .product__link {
+        font-size: 16px;
+        padding-top: 8px;
+    }
+}
+

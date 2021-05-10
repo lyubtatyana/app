@@ -1,0 +1,45 @@
+@import url('/css/blocks/item-product/__description/item-product__description.css');
+@import url('/css/blocks/item-product/__img/item-product__img.css');
+@import url('/css/blocks/item-product/__name/item-product__name.css');
+@import url('/css/blocks/item-product/__price/item-product__price.css');
+
+
+.item-product {
+    width: 570px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .item-product {
+        width: 400px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .item-product {
+        width: 300px;
+    }
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    .item-product {
+        width: 270px;
+        margin: 0 auto;
+    }    
+}
+    
+@media (min-width: 375px) and (max-width: 424px) {
+    .item-product {
+        width: 290px;
+        margin: 0 auto;
+    } 
+}
+    
+@media (min-width: 320px) and (max-width: 374px) {
+    .item-product {
+        width: 290px;
+        margin: 0 auto;
+    }        
+}

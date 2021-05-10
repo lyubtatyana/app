@@ -1,0 +1,11 @@
+.footer__phone-number {
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .footer__phone-number {
+        padding-right: 70px;
+    }
+  
+}

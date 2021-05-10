@@ -1,0 +1,96 @@
+.footer__links {
+    display: flex;
+    list-style: none;
+    padding-top: 100px;
+}
+
+.footer__links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "AvenirNextDemi", sans-serif;
+    color: #303032;
+    transition: 0.5s;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 22px;
+}
+
+.footer__links a:not(:last-child) {
+    margin-right: 60px;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .footer__links {
+        padding-top: 60px;
+    }
+
+    .footer__links a:not(:last-child) {
+        margin-right: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer__links {
+        padding-top: 50px;
+    }
+
+    .footer__links a:not(:last-child) {
+        margin-right: 40px;
+    }
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    .footer__links {
+        padding-top: 40px;
+        flex-wrap: wrap;
+    }
+
+    .footer__links a:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+    
+@media (min-width: 375px) and (max-width: 424px) {
+    .footer__links {
+        padding-top: 20px;
+        order: 1;
+        flex-wrap: wrap;
+        margin-left: 24px;
+    }
+
+    .footer__links a {
+        margin-right: 60px;
+        padding-top: 20px;
+        align-items: center;
+    }
+
+    .footer__links a:last-child {
+        margin-right: 60px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        align-items: center;
+    }
+}
+    
+@media (min-width: 320px) and (max-width: 374px) {
+    .footer__links {
+        padding-top: 20px;
+        order: 1;
+        flex-wrap: wrap;
+        margin-left: 16px;
+    }
+
+    .footer__links a {
+        margin-right: 60px;
+        padding-top: 20px;
+        align-items: center;
+    }
+
+    .footer__links a:last-child {
+        margin-right: 60px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        align-items: center;
+    }
+}

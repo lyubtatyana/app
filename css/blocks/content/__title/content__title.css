@@ -1,0 +1,45 @@
+.content__title {
+    font-size: 57px;
+    padding-top: 125px;
+    font-family: "PlayfairDisplayBold", sans-serif;
+    text-transform: uppercase;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .content__title {
+        font-size: 45px;
+        padding-top: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .content__title {
+        font-size: 39px;
+        padding-top: 80px;
+    }
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    .content__title {
+        font-size: 20px;
+        padding-top: 60px;
+    }    
+}
+    
+@media (min-width: 375px) and (max-width: 424px) {
+    .content__title {
+        width: 375px;
+        font-size: 32px;
+        padding-top: 30px;
+        padding-left: 24px;
+    } 
+}
+    
+@media (min-width: 320px) and (max-width: 374px) {
+    .content__title {
+        width: 320px;
+        font-size: 32px;
+        padding-top: 30px;
+        padding-left: 16px;
+    }        
+}

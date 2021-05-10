@@ -1,0 +1,43 @@
+.last-chance__caramel {
+    position: relative;
+    bottom: -6px;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .last-chance__caramel {
+        width: 165px;
+        bottom: -17px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .last-chance__caramel {
+        width: 165px;
+        bottom: -17px;
+    }
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    .last-chance__caramel {
+        width: 165px;
+        bottom: -17px;
+    }    
+}
+    
+@media (min-width: 375px) and (max-width: 424px) {
+    .last-chance__caramel {
+        bottom: 41px;
+        height: 300px;
+        padding-left: 1px;
+    } 
+}
+    
+@media (min-width: 320px) and (max-width: 374px) {
+    .last-chance__caramel {
+        bottom: 41px;
+        height: 300px;
+        padding-left: 1px;
+    }   
+}
+

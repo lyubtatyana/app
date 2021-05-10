@@ -1,0 +1,117 @@
+.last-chance__item {
+    width: 209px;
+    background-color: #ffffff;
+    text-align: end;
+    margin-bottom: 111px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+}
+
+.last-chance__item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    padding-left: 25px;
+    padding-top: 30px;
+    text-align: start;
+}
+
+div:hover.last-chance__item {
+    border-top: 5px solid black;
+    margin-top: -5px;
+    transition: 0.3s;
+    box-shadow: 2px 2px 30px rgba(56, 54, 53, 0.2);
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .last-chance__item {
+        width: 165px;
+        margin-bottom: 0;
+        height: 300px;
+    }
+
+    .last-chance__item p {
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .last-chance__item {
+        width: 165px;
+        margin-bottom: 58px;
+        margin-right: 20px;
+        height: 300px;
+    }
+
+    .last-chance__item:first-child {
+        margin-left: 20px;
+    }
+
+    .last-chance__item p {
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    .last-chance__item {
+        width: 165px;
+        margin-bottom: 60px;
+        margin-right: 20px;
+        height: 300px;
+    }
+
+    .last-chance__item:first-child {
+        margin-left: 20px;
+    }
+
+    .last-chance__item p {
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+}
+    
+@media (min-width: 375px) and (max-width: 424px) {
+    .last-chance__item {
+        width: 250px;
+        height: 353px;
+        margin-bottom: 0;
+        margin-right: 50px;
+    }
+
+    .last-chance__item:first-child {
+        margin-left: 40px;
+    }
+
+    .last-chance__item p {
+        padding-left: 25px;
+        padding-top: 30px;
+        position: relative;
+        z-index: 2;
+    }
+}
+    
+@media (min-width: 320px) and (max-width: 374px) {
+    .last-chance__item {
+        width: 250px;
+        height: 353px;
+        margin-bottom: 0;
+        margin-right: 50px;
+    }
+
+    .last-chance__item:first-child {
+        margin-left: 20px;
+    }
+
+    .last-chance__item p {
+        padding-left: 25px;
+        padding-top: 30px;
+        position: relative;
+        z-index: 2;
+    }  
+
+}

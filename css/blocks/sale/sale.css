@@ -1,0 +1,43 @@
+@import url('/css/blocks/sale/__product/sale__product.css');
+@import url('/css/blocks/sale/__title/sale__title.css');
+@import url('/css/blocks/sale/__furniture/sale__furniture.css');
+
+.sale {
+    width: 100%;
+    background: linear-gradient(to right,  #fceae8 54%, #f9fdff 46%);
+    margin-top: 100px;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .sale {
+        margin-top: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .sale {
+        background: linear-gradient(to right,  #fceae8 60%, #f9fdff 40%);
+        margin-top: 80px;
+    }
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    .sale {
+        margin-top: 40px;
+        background: linear-gradient(to right,  #fceae8 60%, #f9fdff 40%);
+    }    
+}
+    
+@media (min-width: 375px) and (max-width: 424px) {
+    .sale {
+        margin-top: 40px;
+        background: #f9fdff;
+    } 
+}
+    
+@media (min-width: 320px) and (max-width: 374px) {
+    .sale {
+        margin-top: 40px;
+        background: #f9fdff;
+    }    
+}

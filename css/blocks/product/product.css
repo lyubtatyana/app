@@ -1,0 +1,15 @@
+@import url('/css/blocks/product/__img/product__img.css');
+@import url('/css/blocks/product/__navigation/product__navigation.css');
+@import url('/css/blocks/product/__link/product__link.css');
+
+@media (min-width: 375px) and (max-width: 424px) {
+    .product {
+        margin-bottom: -40px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .product {
+        margin-bottom: -40px;
+    }
+}

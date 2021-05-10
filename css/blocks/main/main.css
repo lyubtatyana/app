@@ -1,0 +1,44 @@
+@import url('/css/blocks/main/__menu/main__menu.css');
+@import url('/css/blocks/main/__logo/main__logo.css');
+@import url('/css/blocks/main/__navigation/main__navigation.css');
+@import url('/css/blocks/main/__search/main__search.css');
+@import url('/css/blocks/main/__burger/main__burger.css');
+@import url('/css/blocks/main/__body/main__body.css');
+
+.main {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .main {
+        width: 900px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .main {
+        width: 700px;
+    }
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    .main {
+        width: 400px;
+    }    
+}
+    
+@media (min-width: 375px) and (max-width: 424px) {
+    .main {
+        width: 375px;
+    }
+}
+    
+@media (min-width: 320px) and (max-width: 374px) {
+    .main {
+        width: 320px;
+    }  
+}

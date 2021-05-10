@@ -1,0 +1,38 @@
+.last-chance__cloud {
+    position: relative;
+    bottom: -3px;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .last-chance__cloud {
+       width: 165px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .last-chance__cloud {
+        width: 165px;
+     }
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    .last-chance__cloud {
+        width: 165px;
+     }
+}
+    
+@media (min-width: 375px) and (max-width: 424px) {
+    .last-chance__cloud {
+        bottom: 41px;
+        height: 300px;
+        padding-left: 18px;
+     }
+}
+    
+@media (min-width: 320px) and (max-width: 374px) {
+    .last-chance__cloud {
+        bottom: 41px;
+        height: 300px;
+        padding-left: 18px;
+     }       
+}

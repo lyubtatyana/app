@@ -1,0 +1,22 @@
+.last-chance__price {
+    display: flex;
+}
+
+.last-chance__price p:first-child {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    padding-top: 4px;
+    z-index: 1;
+}
+
+.last-chance__price p:last-child {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 14px;
+    text-decoration-line: line-through;
+    opacity: 50%;
+    padding-left: 11px;
+    z-index: 1;
+}

@@ -1,0 +1,30 @@
+.item__chair {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .item__chair {
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .item__chair {
+        padding-top: 5px;
+        padding-bottom: 0;
+    }
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    
+    }
+    
+@media (min-width: 375px) and (max-width: 424px) {
+
+    }
+    
+@media (min-width: 320px) and (max-width: 374px) {
+       
+
+    }

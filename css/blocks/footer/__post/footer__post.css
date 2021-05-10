@@ -1,0 +1,16 @@
+.footer__post {
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    .footer__post:last-child {
+        padding-top: 20px;
+    }
+}
+    
+@media (min-width: 320px) and (max-width: 374px) {
+    .footer__post:last-child {
+        padding-top: 20px;
+    }    
+}

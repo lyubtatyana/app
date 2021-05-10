@@ -1,0 +1,26 @@
+.footer__information {
+    font-family: "AvenirNextREgular", sans-serif;
+    font-size: 10px;
+    line-height: 15px;
+    color: #000000;
+    opacity: 0.2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: end;
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    .footer__information {
+        text-align: center;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+    
+@media (min-width: 320px) and (max-width: 374px) {
+    .footer__information {
+        text-align: center;
+        padding-left: 16px;
+        padding-right: 16px;
+    }     
+}

@@ -1,0 +1,64 @@
+.last-chance__button {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 18px 68px;
+    background-color: #303032;
+    color: #ffffff;
+    border: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+    transition: 0.3s;
+    z-index: -1;
+}
+
+div:hover>.last-chance__button{
+    bottom: -58px;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .last-chance__button {
+        padding: 26px 48px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .last-chance__button {
+        padding: 20px 49px;
+        font-size: 15px;
+    }
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    .last-chance__button {
+        padding: 20px 49px;
+        font-size: 15px;
+    }
+}
+    
+@media (min-width: 375px) and (max-width: 424px) {
+    .last-chance__button {
+        padding: 20px 91px;
+        font-size: 15px;
+    }
+    
+    div:hover>.last-chance__button{
+        bottom: -60px;
+    }
+}
+    
+@media (min-width: 320px) and (max-width: 374px) {
+    .last-chance__button {
+        padding: 20px 91px;
+        font-size: 15px;
+    }
+    
+    div:hover>.last-chance__button{
+        bottom: -60px;
+    }       
+}

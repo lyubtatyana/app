@@ -1,0 +1,33 @@
+.item-product__name {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: normal;
+    padding-bottom: 7px;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .item-product__name {
+        padding-bottom: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .item-product__name {
+        font-size: 16px;
+    }
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    .item-product__name {
+        font-size: 15px;
+    }    
+}
+    
+@media (min-width: 375px) and (max-width: 424px) {
+
+    }
+    
+@media (min-width: 320px) and (max-width: 374px) {
+       
+
+    }

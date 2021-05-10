@@ -1,0 +1,60 @@
+@import url('/css/blocks/review/__photo/review__photo.css');
+@import url('/css/blocks/review/__name/review__name.css');
+@import url('/css/blocks/review/__post/review__post.css');
+@import url('/css/blocks/review/__text/review__text.css');
+@import url('/css/blocks/review/__slider/review__slider.css');
+@import url('/css/blocks/review/__ellipse/review__ellipse.css');
+
+
+.review {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+
+/* Стрелка */
+.review .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+    font-size: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.review .slick-arrow:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+
+/* Стрелка влево */
+.review .slick-arrow.slick-prev {
+    background: url('/img/sections/arrow.png');
+    left: 0;
+}
+/* Стрелка вправо */
+.review .slick-arrow.slick-next {
+    background: url('/img/sections/arrow.png');
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    right: 0;
+    margin: -18px 0 0 0;
+}
+
+/* Активная точка */
+/*  */.review .slick-dots li.slick-active { 
+     background-color: #b3b3b3;
+     border-radius: 50%;
+}

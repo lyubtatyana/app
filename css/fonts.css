@@ -1,64 +1,93 @@
+/*Playfair Display*/
+
 @font-face {
-    font-family: "ManropeExtraBold";
+    font-family: "PlayfairDisplayBlack";
     font-style: normal;
-    font-weight: 800;
-    src: local("ManropeExtraBold"),
-        url("/fonts/Manrope-ExtraBold.woff2"),
-        url("/fonts/Manrope-ExtraBold.woff");
+    font-weight: 900;
+    src: local("PlayfairDisplayBlack"),
+        url("/fonts/PlayfairDisplay/PlayfairDisplayBlack.woff") format('woff');
 }
 
 @font-face {
-    font-family: "ManropeBold";
+    font-family: "PlayfairDisplayBold";
     font-style: normal;
     font-weight: bold;
-    src: local("ManropeBold"),
-        url("/fonts/Manrope-Bold.woff2"),
-        url("/fonts/Manrope-Bold.woff");
+    src: local("PlayfairDisplayBold"),
+        url("/fonts/PlayfairDisplay/PlayfairDisplayBold.woff") format('woff');
 }
 
 @font-face {
-    font-family: "ManropeSemibold";
-    font-style: normal;
-    font-weight: 600;
-    src: local("ManropeSemibold"),
-        url("/fonts/Manrope-Semibold.woff2"),
-        url("/fonts/Manrope-Semibold.woff");
-}
-
-@font-face {
-    font-family: "ManropeMedium";
-    font-style: normal;
-    font-weight: 500;
-    src: local("ManropeMedium"),
-        url("/fonts/Manrope-Medium.woff2"),
-        url("/fonts/Manrope-Medium.woff");
-}
-
-@font-face {
-    font-family: "ManropeRegular";
+    font-family: "PlayfairDisplayRegular";
     font-style: normal;
     font-weight: 400;
-    src: local("ManropeRegular"),
-        url("/fonts/Manrope-Regular.woff2"),
-        url("/fonts/Manrope-Regular.woff");
+    src: local("PlayfairDisplayRegular"),
+        url("/fonts/PlayfairDisplay/PlayfairDisplayRegular.woff") format('woff');
+}
+
+/*AvenirNext*/
+
+@font-face {
+    font-family: "AvenirNextHeavy";
+    font-style: normal;
+    font-weight: 900;
+    src: local("AvenirNextHeavy"),
+        url("/fonts/AvenirNext/AvenirNextHeavy.woff") format('woff');
 }
 
 @font-face {
-    font-family: "ManropeLight";
+    font-family: "AvenirNextBold";
+    font-style: normal;
+    font-weight: bold;
+    src: local("AvenirNextBold"),
+        url("/fonts/AvenirNext/AvenirNextBold.woff") format('woff');
+}
+
+@font-face {
+    font-family: "AvenirNextDemi";
+    font-style: normal;
+    font-weight: 600;
+    src: local("AvenirNextDemi"),
+        url("/fonts/AvenirNext/AvenirNextDemi.woff") format('woff');
+}
+
+@font-face {
+    font-family: "AvenirNextMedium";
+    font-style: normal;
+    font-weight: 500;
+    src: local("AvenirNextMedium"),
+        url("/fonts/AvenirNext/AvenirNextMedium.woff") format('woff');
+}
+
+@font-face {
+    font-family: "AvenirNextRegular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("AvenirNextRegular"),
+        url("/fonts/AvenirNext/AvenirNextRegular.woff") format('woff');
+}
+
+@font-face {
+    font-family: "AvenirNextLight";
     font-style: normal;
     font-weight: 300;
-    src: local("ManropeLight"),
-        url("/fonts/Manrope-Light.woff2"),
-        url("/fonts/Manrope-Light.woff");
+    src: local("AvenirNextLight"),
+        url("/fonts/AvenirNext/AvenirNextLight.woff") format('woff');
 }
 
 @font-face {
-    font-family: "ManropeThin";
+    font-family: "AvenirNextUltraLight";
+    font-style: normal;
+    font-weight: 200;
+    src: local("AvenirNextUltraLight"),
+        url("/fonts/AvenirNext/AvenirNextUltraLight.woff") format('woff');
+}
+
+@font-face {
+    font-family: "AvenirNextThin";
     font-style: normal;
     font-weight: 100;
-    src: local("ManropeThin"),
-        url("/fonts/Manrope-Thin.woff2"),
-        url("/fonts/Manrope-Thin.woff");
+    src: local("AvenirNextThin"),
+        url("/fonts/AvenirNext/AvenirNextThin.woff") format('woff');
 }
 
 

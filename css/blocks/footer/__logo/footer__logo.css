@@ -1,0 +1,39 @@
+.footer__logo {
+    padding-right: 645px;
+    padding-top: 100px;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .footer__logo {
+        padding-right: 400px;
+        padding-top: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer__logo {
+        padding-right: 230px;
+        padding-top: 50px;
+    }
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    .footer__logo {
+        padding-right: 40px;
+        padding-top: 40px;
+    }    
+}
+    
+@media (min-width: 375px) and (max-width: 424px) {
+    .footer__logo {
+        padding: 30px 120px 0 0;
+        margin-left: 24px;
+    }
+}
+    
+@media (min-width: 320px) and (max-width: 374px) {
+    .footer__logo {
+        padding: 30px 120px 0 0;
+        margin-left: 16px;
+    }    
+}

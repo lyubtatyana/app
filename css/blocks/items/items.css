@@ -1,0 +1,47 @@
+@import url('/css/blocks/items/__new/items__new.css');
+@import url('/css/blocks/items/__title/items__title.css');
+
+.items {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .items {
+        width: 900px;
+        padding-top: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .items {
+        width: 700px;
+        padding-top: 50px;
+    }
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    .items {
+        width: 400px;
+        padding-top: 50px;
+        flex-direction: column;
+    }
+}
+    
+@media (min-width: 375px) and (max-width: 424px) {
+    .items {
+        width: 375px;
+        padding-top: 80px;
+        flex-direction: column;
+    }
+}
+    
+@media (min-width: 320px) and (max-width: 374px) {
+    .items {
+        width: 320px;
+        padding-top: 80px;
+        flex-direction: column;
+    }  
+}

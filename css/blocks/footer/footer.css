@@ -1,0 +1,41 @@
+@import url('/css/blocks/footer/__main/footer__main.css');
+@import url('/css/blocks/footer/__menu/footer__menu.css');
+@import url('/css/blocks/footer/__logo/footer__logo.css');
+@import url('/css/blocks/footer/__links/footer__links.css');
+@import url('/css/blocks/footer/__contacts/footer__contacts.css');
+@import url('/css/blocks/footer/__phone-number/footer__phone-number.css');
+@import url('/css/blocks/footer/__post/footer__post.css');
+@import url('/css/blocks/footer/__information/footer__information.css');
+
+.footer {
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 135px;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .footer {
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+        margin-top: 155px;
+    }
+}
+    
+@media (min-width: 425px) and (max-width: 767px) {
+    .footer {
+        margin-top: 110px;
+    }    
+}
+    
+@media (min-width: 375px) and (max-width: 424px) {
+
+    }
+    
+@media (min-width: 320px) and (max-width: 374px) {
+       
+
+    }
