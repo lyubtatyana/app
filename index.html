@@ -2,14 +2,301 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Step</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="sass/main.css">
+
 </head>
+
 <body>
-  
+    <section class="network">
+        <header class="network-navigation">
+            <nav class="network-navigation__menu">
+                <a class=" logo" href="#"><img src="img/Logo.png" alt=""></a>
+            <ul class="network-navigation__tabs">
+                <li class="network-navigation__items">
+                  <a class="network-navigation__link  " href="#">
+                      <img src="img/rss.png" alt="">
+                      <p>Feed</p>
+                    </a>
+                </li>
+                <li class=" network-navigation__items">
+                  <a class="network-navigation__link" href="">
+                      <img src="img/users.png" alt="">
+                      <p>Network</p>
+                    </a>
+                </li>
+                <li class=" network-navigation__items">
+                  <a class="network-navigation__link" href="#">
+                      <img src="img/briefcase.png" alt="">
+                      <p>Jobs</p>
+                    </a>
+                </li>
+                <li class=" network-navigation__items">
+                    <a class="network-navigation__link" href="#">
+                        <img src="img/Vector.png" alt="">
+                        <p>Chat</p>
+                    </a>
+                  </li>
+                  <li class=" network-navigation__items">
+                    <a class="network-navigation__link" href="#">
+                        <img src="img/bell.png" alt="">
+                        <p>Notices</p>
+                    </a>
+                  </li>
+              </ul>
+              <div class="network-navigation__search">
+                  <img src="img/search.png" alt="search" style="padding: 28px 30px;">
+                <input name="s" placeholder="Search" type="search" style="border: 0px;">
+              </div>
+              <div class="network-navigation__profile">
+                <img src="img/Rectangle.png" class="network-profile__img " alt="photo" > 
+             <div class="network-profile__text ">
+                     <h5>D. Kargaev <span>you</span></h5>
+                   <div class="network-profile__arrow">
+                       <p>367 views today </p>
+                       <p class="green">+32</p>
+                    <img src="img/arrow-up-right.png" alt="arrow">
+                </div>
+                   
+            </div>
+            </div>
+            </nav>
+        </header>
+
+        <div class="container">
+        
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                        <nav class="nav flex-column network-menu">
+                            <a class="nav-link active" href="#">
+                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                <g clip-path="url(#clip0)">
+                                <path d="M6.9978 9.03973C7.2841 9.42248 7.64937 9.73918 8.06884 9.96835C8.4883 10.1975 8.95214 10.3338 9.4289 10.3679C9.90567 10.4021 10.3842 10.3333 10.832 10.1662C11.2799 9.99919 11.6865 9.73777 12.0245 9.39973L14.0245 7.39973C14.6317 6.77105 14.9676 5.92904 14.9601 5.05506C14.9525 4.18107 14.6019 3.34502 13.9839 2.727C13.3658 2.10897 12.5298 1.75841 11.6558 1.75081C10.7818 1.74322 9.93981 2.0792 9.31114 2.68639L8.16447 3.82639" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.66428 7.70631C9.37797 7.32355 9.0127 7.00685 8.59324 6.77768C8.17378 6.54851 7.70994 6.41223 7.23318 6.37808C6.75641 6.34394 6.27789 6.41273 5.83005 6.57979C5.38221 6.74684 4.97553 7.00826 4.63761 7.34631L2.63761 9.34631C2.03042 9.97498 1.69444 10.817 1.70203 11.691C1.70963 12.565 2.06019 13.401 2.67822 14.019C3.29624 14.6371 4.13228 14.9876 5.00627 14.9952C5.88026 15.0028 6.72227 14.6668 7.35094 14.0596L8.49094 12.9196" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0">
+                                <rect width="16" height="16" fill="white" transform="translate(0.331055 0.373047)"/>
+                                </clipPath>
+                                </defs>
+                                </svg> 
+                                Connections</a>
+                            <a class="nav-link active" href="#">
+                                <svg width="17" height="16" viewBox="0 0 17 16" fill="none" >
+                                    <g style="mix-blend-mode:darken"  clip-path="url(#clip0)">
+                                    <path d="M8.64347 14.6667C12.3254 14.6667 15.3101 11.6819 15.3101 8C15.3101 4.3181 12.3254 1.33333 8.64347 1.33333C4.96158 1.33333 1.97681 4.3181 1.97681 8C1.97681 11.6819 4.96158 14.6667 8.64347 14.6667Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M8.64355 10C9.74812 10 10.6436 9.10457 10.6436 8C10.6436 6.89543 9.74812 6 8.64355 6C7.53899 6 6.64355 6.89543 6.64355 8C6.64355 9.10457 7.53899 10 8.64355 10Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0">
+                                    <rect width="16" height="16" fill="white" transform="translate(0.643555)"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>
+                                Invitations</a>
+                            <a class="nav-link" href="#">
+                                <svg width="17" height="16" viewBox="0 0 17 16" fill="none" >
+                                    <g clip-path="url(#clip0)">
+                                    <path d="M14.8896 5.33333V14H2.88965V5.33333" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16.2231 2H1.5564V5.33333H16.2231V2Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M7.5564 8H10.2231" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0">
+                                    <rect width="16" height="16" fill="white" transform="translate(0.889648)"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>
+                                Teammates</a>
+                            <a class="nav-link" href="#">
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" >
+                                    <g clip-path="url(#clip0)">
+                                    <path d="M11.3334 14.2686V12.9352C11.3334 12.228 11.0525 11.5497 10.5524 11.0496C10.0523 10.5495 9.37399 10.2686 8.66675 10.2686H3.33341C2.62617 10.2686 1.94789 10.5495 1.4478 11.0496C0.9477 11.5497 0.666748 12.228 0.666748 12.9352V14.2686" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M5.99992 7.60189C7.47268 7.60189 8.66659 6.40798 8.66659 4.93522C8.66659 3.46246 7.47268 2.26855 5.99992 2.26855C4.52716 2.26855 3.33325 3.46246 3.33325 4.93522C3.33325 6.40798 4.52716 7.60189 5.99992 7.60189Z" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M15.3333 14.2686V12.9353C15.3328 12.3444 15.1362 11.7704 14.7742 11.3035C14.4122 10.8365 13.9053 10.503 13.3333 10.3553" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.6667 2.35526C11.2404 2.50212 11.7488 2.83572 12.1118 3.30346C12.4749 3.7712 12.672 4.34647 12.672 4.93859C12.672 5.5307 12.4749 6.10598 12.1118 6.57371C11.7488 7.04145 11.2404 7.37505 10.6667 7.52192" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0">
+                                    <rect width="16" height="16" fill="white" transform="translate(0 0.268555)"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>
+                                     Groups</a>
+                            <a class="nav-link" href="#">
+                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none" >
+                                    <g clip-path="url(#clip0)">
+                                    <path d="M8.70988 1.78061L2.04321 5.11394L8.70988 8.44728L15.3765 5.11394L8.70988 1.78061Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2.04321 11.7806L8.70988 15.1139L15.3765 11.7806" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2.04321 8.44727L8.70988 11.7806L15.3765 8.44727" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0">
+                                    <rect width="16" height="16" fill="white" transform="translate(0.709961 0.447266)"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>
+                                     Pages</a>
+                            <a class="nav-link" href="#">
+                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none" >
+                                    <path d="M3.50854 6.75195H14.1752" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M3.50854 10.752H14.1752" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M7.50838 2.75195L6.17505 14.752" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M11.5084 2.75195L10.175 14.752" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                     Hashtags</a>
+                                                  </nav>
+                
+                </div>
+                <!--/.col-3 -->
+                <div class="col-lg-9 col-md-6">
+                        <ul class="nav nav-tabs network-tabs align-items-end">
+                            <li class="nav-item network-tabs__item">
+                              <a class="network-tabs__link active nav-link nav-tabs active" href="#">Received</a>
+                            </li>
+                            <li class="nav-item network-tabs__item">
+                              <a class="network-tabs__link nav-link nav-tabs" href="#">Sent</a>
+                            </li>
+                         </ul>
+                         <p class="network-tabs__bottom">you have 2 new connections</p>
+                         
+                         <div class="network-resume">
+                            <div class="network-resume__discription ">
+                            <div class="network-resume__group">
+                             <img src="img/Brandon.png" class="network-resume__img" alt="photo"> 
+                             <div class="network-resume__text">
+                                  <h5>Brandon Wilson</h4>
+                                <p>Senior UX designer</p>
+                                <p>623 connections</p>
+                            </div>
+                             </div>
+                            <div class="network-resume__message">
+                                Hey, I saw your works. I like it! Can we do something together? Or maybe you have project for UX at the moment?
+                            </div>
+                            <div class="network-resume__button">
+                              <button type="button" class="resume__button active-button">Accept </button>
+                              <button type="button" class="resume__button">Decline</button>
+                            </div>
+                           </div>
+                            <div class="network-resume__discription">
+                                <div class="network-resume__group">
+                                <img src="img/teresa.png" class="network-resume__img stretch" alt="photo" > 
+                             <div class="network-resume__text ">
+                                  <h5>Teresa Steward</h5>
+                                <p>IOS developer</p>
+                                <p>481 connections</p>
+                            </div>
+                            </div>
+                            <div class="network-resume__button">
+                              <button type="button" class="resume__button active-button">Accept </button>
+                              <button  type="button" class="resume__button">Decline</button>
+                            </div>
+                          </div>
+                          <p class="network-tabs__bottom">Recent connections</p>
+
+                          <div class="row recent">
+                            <div class="col network-resume__recent">
+                                <div class="network-resume__group">
+                                 <img src="img/Photo.png" class="network-recent__img" alt="photo"> 
+                                <div class="network-recent__text">
+                                     <h5>Andrey Alexander</h5>
+                                   <p>Team lead at Google</p>
+                                   
+                               </div>
+                              </div>
+                               <p class="network-resume__date">Yesterday, 14:30</p>
+                            </div>
+
+                            <div class="col network-resume__recent">
+                                <div class="network-resume__group">
+                                 <img src="img/Photo-1.png" class="network-recent__img" alt="photo"> 
+                                <div class="network-recent__text">
+                                     <h5>Kyle Fisher</h5>
+                                   <p>Product designer at Commandor Corp</p>
+                                   
+                               </div>
+                                </div>
+                               <p class="network-resume__date"> Yesterday, 12:03</p>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col network-resume__recent"> 
+                            <div class="network-resume__group">
+                                <img src="img/Photo-2.png" class="network-recent__img" alt="photo"> 
+                                <div class="network-recent__text">
+                                     <h5>Darlene Black</h5>
+                                   <p>HR-manager, 10 000 connections</p>
+                                  
+                               </div>
+                            </div>
+                               <p class="network-resume__date">26 aug, monday</p>
+                            </div>
+                            <div class="col network-resume__recent">
+                                <div class="network-resume__group">
+                                 <img src="img/Photo-3.png" class="network-recent__img" alt="photo"> 
+                                <div class="network-recent__text">
+                                     <h5>Eduardo Russell</h5>
+                                   <p>Full stack developer at Yandex</p>
+                                   
+                               </div>
+                            </div>
+                               <p class="network-resume__date">25 aug, sunday</p>
+                            </div>
+                          </div>
+              </div>
+                <!--/.col-9 -->
+            </div>
+            <!--/.row -->
+        </div>
+        </div>
+        <footer>
+        <div class="row footer">
+            <div class="col-sm">
+                <a  href="#"><img src="img/Logofooter.png" alt=""></a>
+            </div>
+            <div class="col-sm-6 footer-navigation">
+              <h5>Navigation</h5>
+              <nav class="row">
+                <div class="col-sm nav flex-column footer-navigation__href">
+                  <a href="">About</a>
+                  <a href="">Careers</a>
+                  <a href="">Advertising</a>
+                  <a href="">Small Business</a>
+                </div>
+                <div class="col-sm nav flex-column footer-navigation__href">
+                    <a href="">Taient Solutions</a>
+                    <a href="">Marketing</a>
+                    <a href="">Sales Solutions</a>
+                    <a href="">Safery Center</a>
+                </div>
+                <div class="col-sm nav flex-column footer-navigation__href">
+                    <a href="">Community Guidelines</a>
+                    <a href="">Privacy & Terms</a>
+                    <a href="">Mobile App</a>
+                </div>
+            </nav>
+            </div>
+            <div class="col-sm footer-button">
+              <h5>Fast access</h5>
+              <button type="button" class="btn btn-primary" style="background: #0275B1;">Questions? <img src="img/help-circle.png" alt=""></button>
+              <button type="button" class="btn btn-outline-primary" >Settings <img src="img/settings.png" alt=""></button>
+            </div>
+            <div class="col-sm footer-form">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1"><h5>Language</h5></label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>English</option>
+                      <option>Russian</option>
+                    </select>
+                  </div>
+              </div>
+          
+          </div>
+        </footer>
+        <!--/.container -->
+    </section>
 </body>
 </html>
