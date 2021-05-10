@@ -4,12 +4,242 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Step</title>
+    <title>Designer Furniture</title>
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/vendor/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/js/script.js">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="icon" href="/img/header/logo.svg">
 </head>
 <body>
-  
+     <header class="header">
+         <div class="main">
+            <div class="main__menu">
+                <div class="main__body">
+                    <a href="" class="main__logo">
+                        <img src="/img/header/logo.svg" alt="logo" >
+                    </a>
+                    <div class="main__search">
+                        <a href="">
+                            <img src="/img/header/search.svg" alt="search">
+                        </a>
+                        <a href="">
+                            <img src="/img/header/shopping-basket.svg" alt="shopping basket">
+                        </a>
+                    </div>
+                    <div class="main__burger">
+                        <a href="">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+                    
+                    <nav class="main__navigation">
+                        <li>
+                            <a href="">Мебель</a>
+                        </li>
+                        <li>
+                            <a href="">Освещение</a>
+                        </li>
+                        <li>
+                            <a href="">Текстиль</a>
+                        </li>
+                    </nav>
+                    
+            </div>
+                
+            <div class="content">
+                <div class="content__block">
+                   <h1 class="content__title">Дизайнерская мебель</h1>
+                   <p class="content__subtitle">Кресло "Антиква"</p>
+                   <div class="content__price">
+                    <p>$380</p>
+                    <p>$240</p>
+                   </div>
+                   <button class="content__button">Купить</button> 
+                </div>
+
+                <div class="product">
+                    <img src="/img/header/Antickva.jpg" alt="Кресло" class="product__img">
+                    <ul class="product__navigation">
+                        <li class="product__link"><a href="">01</a></li>
+                        <li class="product__link"><a href="">02</a></li>
+                        <li class="product__link"><a href="">03</a></li>
+                        <li class="product__link"><a href="">04</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+     </header>
+
+     <section class="items">
+         <div class="items__new">
+            <div class="items__title">
+                <h3>Новинки</h3>
+            </div>
+            <div class="item">
+                <img src="/img/sections/new-item-chair.jpg" alt="стул" class="item__chair">
+                <p class="item__name">Стул "Смеркается"</p>
+                <p class="item__price">$280</p>
+            </div>
+            <div class="item">
+                <img src="/img/sections/new-item-chandelier.jpg" alt="люстра" class="item__chandelier">
+                <p class="item__name">Люстра "Облако"</p>
+                <p class="item__price">$250</p>
+            </div>
+            <div class="item">
+                <img src="/img/sections/new-item-table.png" alt="стол">
+                <p class="item__name">Стол "Крем брюле"</p>
+                <p class="item__price">$320</p>
+            </div>
+         </div>
+         <div class="item-product">
+             <div class="item-product__description">
+                <img src="/img/sections/new-item-officeChair.jpg" alt="офисный стул" class="item-product__img">
+                <p class="item-product__name">Стул офисный "Белый шоколад"</p>
+                <p class="item-product__price">$120</p>
+             </div>
+         </div>
+     </section>
+
+     <section class="reviews">
+         <div class="review">
+             <div class="review__slider">
+                <img src="/img/sections/face.png" alt="" class="review__photo">
+                <p class="review__name">Елена Новикова</p>
+                <p class="review__post">студентка</p>
+                <p class="review__text">«Хочу поделиться своими впечатлениями по использованию дивана «Бродвей», заказывала в конце 2016 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»</p>
+             </div>
+
+             <div class="review__slider">
+                <img src="/img/sections/face2.jpg" alt="" class="review__photo">
+                <p class="review__name">Иван Смирнов</p>
+                <p class="review__post">повар-кондитер</p>
+                <p class="review__text">«Хочу поделиться своими впечатлениями по использованию стула «Месси», заказывал в середине 2018 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»</p>
+             </div>
+
+             <div class="review__slider">
+                <img src="/img/sections/face3.jpg" alt="" class="review__photo">
+                <p class="review__name">Михаил Михайловский</p>
+                <p class="review__post">строитель</p>
+                <p class="review__text">«Хочу поделиться своими впечатлениями по использованию кухонного стола «Мартинез», заказывал в начале 2019 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»</p>
+             </div>
+
+             <div class="review__slider">
+                <img src="/img/sections/face4.jpg" alt="" class="review__photo">
+                <p class="review__name">Ирина Николаева</p>
+                <p class="review__post">предприниматель</p>
+                <p class="review__text">«Хочу поделиться своими впечатлениями по использованию стула «Сова», заказывала в конце 2018 года. Держится великолепно. Спасибо, большое сотрудникам этого чудесного магазина.»</p>
+             </div>
+             
+         </div>
+
+     </section>
+
+     <section class="sale">
+        <div class="sale__product">
+             <div class="sale__title">
+                <h3>Последний шанс</h3>
+            </div>
+
+            <nav class="sale__furniture">
+                <li><a href="">Стулья</a></li>
+                <li><a href="">Диваны</a></li>
+                <li><a href="">Кресла</a></li>
+            </nav>
+
+            <div class="last-chance">
+                <div class="last-chance__item">
+                    <p>Стул "Карамель"</p>
+                    <div class="last-chance__price">
+                            <p>$195</p>
+                            <p>$245</p>
+                    </div>
+                    <img src="/img/sections/caramel.jpg" alt="Стул" class="last-chance__caramel">
+                    <button class="last-chance__button">Купить</button>
+                </div>
+                
+                <div class="last-chance__item">
+                    <p>Стул "Облако"</p>
+                    <div class="last-chance__price">
+                        <p>$200</p>
+                        <p>$250</p>
+                    </div>
+                    <img src="/img/sections/cloud.jpg" alt="Стул" class="last-chance__cloud">
+                    <button class="last-chance__button">Купить</button>
+                </div>
+                <div class="last-chance__item">
+                    <p>Стул "Сова"</p>
+                    <div class="last-chance__price">
+                        <p>$240</p>
+                        <p>$260</p>
+                    </div>
+                    <img src="/img/sections/owl.jpg" alt="Стул" class="last-chance__owl">
+                    <button class="last-chance__button">Купить</button>
+                </div>
+                <div class="last-chance__item">
+                    <p>Стул "Мая"</p>
+                    <div class="last-chance__price">
+                        <p>$280</p>
+                        <p>$330</p>
+                    </div>
+                    <img src="/img/sections/maya.jpg" alt="Стул" class="last-chance__maya">
+                    <button class="last-chance__button">Купить</button>
+                </div>
+                <div class="last-chance__item">
+                    <p>Стул "Месси"</p>
+                    <div class="last-chance__price">
+                        <p>$280</p>
+                        <p>$305</p>
+                    </div>
+                    <img src="/img/sections/messi.jpg" alt="Стул" class="last-chance__messi">
+                    <button class="last-chance__button">Купить</button>
+                </div>
+            </div>
+
+        </div>
+     </section>
+
+     <footer class="footer">
+        <div class="footer__main">
+            <div class="footer__menu">
+                <img src="/img/header/logo.svg" alt="" class="footer__logo">
+                <nav class="footer__links">
+                    <a href="">Доставка</a>
+                    <a href="">Оплата</a>
+                    <a href="">Контакты</a>
+                    <a href="">Гарантии</a>
+                </nav>
+                <div class="footer__contacts">
+                    <div class="footer__phone-number">
+                        <img src="/img/footer/phone-number.svg" alt="">
+                        <a href="">+7(495) 205-28-14</a>
+                    </div>
+                    <div class="footer__post">
+                        <img src="/img/footer/post.svg" alt="">
+                        <a href="">callium@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__information">
+                <p>© 2018 «Callium» — Сайт по продаже дизайнерской мебели. Все права защищены.</p>
+            </div>
+        </div>
+
+     </footer>
+     
+
+     <div class="wrapper">
+    
+            <script type="text/javascript" src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script type="text/javascript" src="slick/slick.min.js"></script>
+            <script src="/js/script.js"></script>
+     </div>
+
+    
 </body>
 </html>
