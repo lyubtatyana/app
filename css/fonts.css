@@ -1,65 +1,107 @@
 @font-face {
-    font-family: "ManropeExtraBold";
+    font-family: "MulishBlack";
+    font-style: normal;
+    font-weight: 900;
+    src: local("MulishBlack"),
+        url("/fonts/Mulish-Black.woff2"),
+        url("/fonts/Mulish-Black.woff");
+}
+
+@font-face {
+    font-family: "MulishExtraBold";
     font-style: normal;
     font-weight: 800;
-    src: local("ManropeExtraBold"),
-        url("/fonts/Manrope-ExtraBold.woff2"),
-        url("/fonts/Manrope-ExtraBold.woff");
+    src: local("MulishExtraBold"),
+        url("/fonts/Mulish-ExtraBold.woff2"),
+        url("/fonts/Mulish-ExtraBold.woff");
 }
 
 @font-face {
-    font-family: "ManropeBold";
+    font-family: "MulishBold";
     font-style: normal;
-    font-weight: bold;
-    src: local("ManropeBold"),
-        url("/fonts/Manrope-Bold.woff2"),
-        url("/fonts/Manrope-Bold.woff");
+    font-weight: 700;
+    src: local("MulishBold"),
+        url("/fonts/Mulish-Bold.woff2"),
+        url("/fonts/Mulish-Bold.woff");
 }
 
 @font-face {
-    font-family: "ManropeSemibold";
+    font-family: "MulishSemiBold";
     font-style: normal;
     font-weight: 600;
-    src: local("ManropeSemibold"),
-        url("/fonts/Manrope-Semibold.woff2"),
-        url("/fonts/Manrope-Semibold.woff");
+    src: local("MulishSemiBold"),
+        url("/fonts/Mulish-SemiBold.woff2"),
+        url("/fonts/Mulish-SemiBold.woff");
 }
 
 @font-face {
-    font-family: "ManropeMedium";
+    font-family: "MulishMedium";
     font-style: normal;
     font-weight: 500;
-    src: local("ManropeMedium"),
-        url("/fonts/Manrope-Medium.woff2"),
-        url("/fonts/Manrope-Medium.woff");
+    src: local("MulishMedium"),
+        url("/fonts/Mulish-Medium.woff2"),
+        url("/fonts/Mulish-Medium.woff");
 }
 
 @font-face {
-    font-family: "ManropeRegular";
+    font-family: "MulishRegular";
     font-style: normal;
     font-weight: 400;
-    src: local("ManropeRegular"),
-        url("/fonts/Manrope-Regular.woff2"),
-        url("/fonts/Manrope-Regular.woff");
+    src: local("MulishRegular"),
+        url("/fonts/Mulish-Regular.woff2"),
+        url("/fonts/Mulish-Regular.woff");
 }
 
 @font-face {
-    font-family: "ManropeLight";
+    font-family: "MulishLight";
     font-style: normal;
     font-weight: 300;
-    src: local("ManropeLight"),
-        url("/fonts/Manrope-Light.woff2"),
-        url("/fonts/Manrope-Light.woff");
+    src: local("MulishLight"),
+        url("/fonts/Mulish-Light.woff2"),
+        url("/fonts/Mulish-Light.woff");
 }
 
 @font-face {
-    font-family: "ManropeThin";
+    font-family: "MulishExtraLight";
     font-style: normal;
-    font-weight: 100;
-    src: local("ManropeThin"),
-        url("/fonts/Manrope-Thin.woff2"),
-        url("/fonts/Manrope-Thin.woff");
+    font-weight: 200;
+    src: local("MulishExtraLight"),
+        url("/fonts/Mulish-ExtraLight.woff2"),
+        url("/fonts/Mulish-ExtraLight.woff");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
